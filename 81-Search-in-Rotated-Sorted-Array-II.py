@@ -8,7 +8,7 @@ class Solution:
             if(nums[mid]==target):
                 return True
 
-            elif(nums[mid]==nums[low] and nums[low]==nums[high]):
+            elif(nums[mid]==nums[low]==nums[high]):
                 low+=1
                 high-=1
             
